@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>TechWave</title>
+     <style>
+        .gradient-btn {
+            background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .container-custom {
+            max-width: 1600px;
+        }
+    </style>
+</head>
+<body class="bg-[rgba(26,11,46,1)]">
+    <header class="border-b border-blue-900/30">
+        <div class="container-custom mx-auto px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[200px]">
+            <div class="flex justify-between items-center h-15 lg:h-23">
+
+                <div class="flex-shrink-0">
+                    <img src="./assets/TechWave.png" alt="TechWave Logo" class="w-auto">
+                </div>
+                <nav class="hidden lg:flex items-center space-x-8">
+                    <a href="#about" class="text-white text-base font-medium">About</a>
+                    <a href="#episodes" class="text-white text-base font-medium">Episodes</a>
+                    <a href="#host" class="text-white text-base font-medium">Host</a>
+                </nav>
+                <button class="hidden md:block gradient-btn text-white py-3 px-4 rounded-full text-base font-semibold hover:opacity-90 transition-opacity">
+                    Subscribe <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <button class="lg:hidden p-2" id="mobileMenuBtn">
+                    <img src="./assets/hamburger-menu.png" alt="Menu" class="w-6 h-6">
+                </button>
+
+            </div>
+        </div>
+    </header>
+</body>
+</html>
