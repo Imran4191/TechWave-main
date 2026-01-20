@@ -12,6 +12,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>TechWave</title>
      <style>
+       .font-inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+        }
         .gradient-btn {
             background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
         }
@@ -26,7 +30,7 @@
         }
     </style>
 </head>
-<body class="bg-[rgba(26,11,46,1)]">
+<body class="font-inter  bg-[rgba(26,11,46,1)]">
     <header class="border-b border-blue-900/30">
         <div class="container-custom mx-auto px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[200px]">
             <div class="flex justify-between items-center h-15 lg:h-23">
@@ -49,8 +53,7 @@
             </div>
         </div>
     </header>
-
-    <section class="relative py-16 lg:py-24 overflow-hidden">
+    <section class="relative py-10 lg:py-24 overflow-hidden">
         <div class="absolute inset-0 w-full h-full">
             <img src="./assets/hero-bg.png" alt="" class="w-full h-full  mt-[-60px] md:mt-0">
         </div>
@@ -84,6 +87,64 @@
                         <i class="far fa-envelope"></i>
                         Subscribe
                     </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#1A0B2E] py-10 lg:pt-12.5 lg:pb-30">
+        <div class="max-w-[1600px] mx-auto px-8 sm:px-8 md:px-16 lg:px-24 xl:px-[200px]">
+            <div class="rounded-lg  lg:p-12">
+                <h2 class="text-white text-5xl font-bold text-center mb-6 lg:mb-8">
+                    About The Podcast
+                </h2>
+                <div class="text-white text-base text-center max-w-3xl mx-auto space-y-4 mb-10 lg:mb-20 leading-5">
+                    <p>
+                        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. 
+                        We break down complex topics into digestible insights, explore productivity strategies that actually work, 
+                        and share stories of personal growth from industry leaders.
+                    </p>
+                    <p>
+                        Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 pt-10 lg:pt-20 border-t border-[#FFFFFF]/10">
+
+                    <div class="text-center">
+                        <div class="text-[#00FF88] text-4xl lg:text-5xl font-bold mb-2">
+                            150K+
+                        </div>
+                        <div class="text-white text-base lg:text-base uppercase tracking-wider">
+                            Monthly Listeners
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-[#00FF88] text-4xl lg:text-5xl font-bold mb-2">
+                            200+
+                        </div>
+                        <div class="text-white text-base lg:text-base uppercase tracking-wider">
+                            Episodes Published
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-[#00FF88] text-4xl lg:text-5xl font-bold mb-2">
+                            4.9★
+                        </div>
+                        <div class="text-white text-base lg:text-base uppercase tracking-wider">
+                            Average Rating
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-[#00FF88] text-4xl lg:text-5xl font-bold mb-2">
+                            50+
+                        </div>
+                        <div class="text-gray-400 text-sm lg:text-base uppercase tracking-wider">
+                            Industry Experts
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
